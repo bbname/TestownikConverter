@@ -20,10 +20,6 @@ namespace TestownikConverter.WPFApp.Converters
             {
                 throw new BoolToVisibilityConverterNullValueException("The value passed to BoolVisibilityConverter was null.", e);
             }
-            catch (Exception e)
-            {
-                throw new BoolToVisibilityConverterException("Unexpected exception in BoolToVisibilityConverter.", e);
-            }
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
@@ -37,10 +33,6 @@ namespace TestownikConverter.WPFApp.Converters
             catch (NullReferenceException e)
             {
                 throw new BoolToVisibilityConverterNullValueException("The value passed to BoolVisibilityConverter was null.", e);
-            }
-            catch (Exception e)
-            {
-                throw new BoolToVisibilityConverterException("Unexpected exception in BoolToVisibilityConverter.", e);
             }
         }
     }

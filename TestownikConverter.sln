@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.15
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestownikConverter.WPFApp", "TestownikConverter.WPFApp\TestownikConverter.WPFApp.csproj", "{CD3EB4DC-8D45-4801-9EA6-503181B9A15D}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestownikConverter.Writer", "TestownikConverter.Writer\TestownikConverter.Writer.csproj", "{78D6E207-6657-4882-82CE-0D03EDDD78D2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestownikConverter.CustomizerText", "TestownikConverter.CustomizerText\TestownikConverter.CustomizerText.csproj", "{B6F5D4EE-F6C4-4B2B-B800-4FD74EC40620}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestownikConverter.WPFApp.Tests", "TestownikConverter.WPFApp.Tests\TestownikConverter.WPFApp.Tests.csproj", "{AF953CF1-1E37-427C-9DC8-15195CD55651}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,15 @@ Global
 		{B6F5D4EE-F6C4-4B2B-B800-4FD74EC40620}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6F5D4EE-F6C4-4B2B-B800-4FD74EC40620}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6F5D4EE-F6C4-4B2B-B800-4FD74EC40620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF953CF1-1E37-427C-9DC8-15195CD55651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF953CF1-1E37-427C-9DC8-15195CD55651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF953CF1-1E37-427C-9DC8-15195CD55651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF953CF1-1E37-427C-9DC8-15195CD55651}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B9241A5-61E0-44D0-B304-41F09CC000B2}
 	EndGlobalSection
 EndGlobal
