@@ -12,19 +12,36 @@ namespace TestownikConverter.WPFApp.Converters
         {
             try
             {
-                var _value = (bool)value;
+                var boolValue = (bool)value;
 
-                return _value ? Visibility.Visible : Visibility.Hidden;
+                return boolValue ? Visibility.Visible : Visibility.Hidden;
             }
             catch (NullReferenceException e)
             {
                 throw new BoolToVisibilityConverterNullValueException("The value passed to BoolVisibilityConverter was null.", e);
             }
+            catch (Exception e)
+            {
+                throw new BoolToVisibilityConverterException("Unexpected exception in BoolToVisibilityConverter.", e);
+            }
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var visibilityValue = (Visibility)value;
+
+                return visibilityValue == Visibility.Visible;
+            }
+            catch (NullReferenceException e)
+            {
+                throw new BoolToVisibilityConverterNullValueException("The value passed to BoolVisibilityConverter was null.", e);
+            }
+            catch (Exception e)
+            {
+                throw new BoolToVisibilityConverterException("Unexpected exception in BoolToVisibilityConverter.", e);
+            }
         }
     }
 }
