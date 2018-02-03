@@ -55,7 +55,6 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Converters\BoolToVisibilityConverter.cs" />
-    <Compile Include="Resources\Exceptions\BoolToVisibilityConverterException.cs" />
     <Compile Include="Resources\Exceptions\BoolToVisibilityConverterNullValueException.cs" />
     <Compile Include="ViewModels\TestownikConverterViewModel.cs" />
     <Page Include="MainWindow.xaml">

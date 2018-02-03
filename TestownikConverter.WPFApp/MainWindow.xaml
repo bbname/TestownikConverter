@@ -29,7 +29,7 @@
         <Label Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Name="SetGeneratedFileOutpotLbl" Width="Auto" Height="30" Margin="5">Wybierz folder gdzie ma się znaleźć wygenerowany plik:</Label>
         <Button Grid.Row="5" Grid.Column="1" Name="SetGeneratedFileOutpotBtn" Width="80" Height="30" Margin="5">Przeglądaj...</Button>
         <TextBox Grid.Row="5" Grid.Column="0" Name="SetGeneratedFileOutpotTextBox" Width="415" Height="30" Margin="5"></TextBox>
-        <Grid Grid.Row="6" Grid.Column="0" Width="415" Height="15" Margin="5"></Grid>
+        <Grid Grid.Row="6" Grid.Column="0" Width="415" Height="0" Margin="5"></Grid>
         <Button Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" Name="GenerateFileBtn" Width="80" Height="30" Margin="5">Generuj</Button>
         <!--<ProgressBar Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" Name="GenerateFileProgressBar" Width="Auto" Height="30" Margin="6" />-->
     </Grid>
